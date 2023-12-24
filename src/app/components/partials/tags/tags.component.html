@@ -1,0 +1,13 @@
+<!-- <div class="category" (click)="OnShowCategoryTag()">Categories</div>
+<div class="categoryTag" *ngIf="tags && !tagShow">
+  <a *ngFor="let tag of tags" routerLink="/tag/{{ tag.name }}">
+    <a>{{ tag.name }} ({{ tag.count }})</a>
+  </a>
+</div> -->
+
+<div class="category" (click)="OnShowCategoryTag()">Categories</div>
+<div class="categoryTag" *ngIf="tags && !tagShow">
+  <a *ngFor="let tag of tags" routerLink="/tag/{{ tag.name }}">
+    <a>{{ tag.name }} ({{ tag.count }})</a>
+  </a>
+</div>
